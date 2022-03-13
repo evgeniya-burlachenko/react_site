@@ -1,0 +1,14 @@
+.copyright{
+    font-size: 18px;
+    padding-right: 10em;
+}
+.footer_logo img{
+    width: 5em;
+    margin-right: 2em;
+}
+
+@media only screen and (max-width: 990px){
+    .footer_nav{
+        display: none;
+    }
+}

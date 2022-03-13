@@ -1,0 +1,37 @@
+body {
+    font-family: 'Aadhunik';
+    overflow-x: hidden;
+    background-image: url(./assets/images/main_site_files/bg3.jpg);
+}
+*,
+*:before,
+*:after {
+    box-sizing :border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+
+}
+
+h1{
+    font-size: 74pt;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 50pt;
+}
+h3{
+    font-size: 34pt;
+}
+h4{
+    font-size: 24pt;
+}
+h5{
+    font-size: 20pt;
+}
+
+@font-face {
+    font-family: 'Aadhunik' ;
+    src: local('Aadhunik'), url(assets/fonts/Aadhunik.ttf) format('truetype');
+}
+

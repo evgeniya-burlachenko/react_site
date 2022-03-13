@@ -1,0 +1,45 @@
+.products_page{
+    height: 100%;
+    background-size: cover;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap; /*разрешаю перенос для адаптивности*/
+    justify-content: center;
+}
+
+.products_shadow h2  {
+    color: #0080b4;
+}
+.products_shadow h2:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+.products_image img{
+    opacity: 0.8;
+
+}
+.products_image img:hover{
+    opacity:1;
+}
+@media only screen and (max-width: 990px){
+   .products_page {
+       display: none;
+   }
+}
+.text_products{
+    align-items: center;
+}
+.under{
+    text-align: center;
+}
+.warning {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 14pt;
+    color: white;
+}

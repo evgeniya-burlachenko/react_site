@@ -1,0 +1,51 @@
+.team_page{
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.team_wrap h1{
+    color: #fff;
+    padding-top: 1em;
+}
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.teams_photo h2{
+    padding-top: 0.5em;
+    color: #fff;
+}
+.team_wrap{
+    padding-bottom: 5em;
+}
+.team_wrap h3{
+    color: #0080b4;
+}
+.teams_photo img{
+    border-radius: 50%; /* Радиус скругления */
+    border: 0.5em solid #0080b4; /* Параметры рамки */
+    box-shadow: 0 0 3em #0080b4; /* Параметры тени */
+}
+.team_overlay {
+    margin-top: 0;
+    margin-left: -2em;
+    position: absolute;
+    width:120%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+}
+@media only screen and (max-width: 990px){
+    .team_page {
+
+        display: none;
+    }
+}
+@media only screen and (max-width: 990px){
+    .team_page {
+
+        display: none;
+    }
+}
+

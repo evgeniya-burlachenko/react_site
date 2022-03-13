@@ -1,0 +1,21 @@
+.teams_photo_mob img{
+    width: 60%;
+    border-radius: 50%; /* Радиус скругления */
+    border: 3px solid #0080b4; /* Параметры рамки */
+    box-shadow: 0 0 2em #0080b4; /* Параметры тени */
+    margin-top: 1em;
+}
+.teams_photo_mob h2{
+    color: #0080b4;
+    margin-top: 0.5em;
+}
+.teams_photo_mob h4{
+    color: #0080b4;
+    margin-top: 0em;
+}
+.first_card{
+    padding-top: -2em;
+}
+.card-header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/images/mobile_version_files/bg_2.jpg");
+}

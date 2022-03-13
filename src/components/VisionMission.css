@@ -1,0 +1,43 @@
+.vision_page{
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.vision{
+    color: #0080b4;
+    border-left: 5px solid #0080b4;
+    padding-left: 2%;
+    margin-top: 1em;
+}
+.mission{
+    padding-right: 2%;
+    margin-top: 9em;
+}
+.vision_text{
+    color: #0080b4;
+    padding-top: 2em;
+    padding-left: 10em;
+}
+.mission_text{
+    border-left: 5px solid #0080b4;
+    padding-top: 10em;
+    padding-right: 10em;
+}
+
+.border_light{
+    margin-top: -3%;
+}
+@media only screen and (max-width: 990px){
+    .vision_page {
+
+        display: none;
+    }
+}
+.vision_overlay {
+    margin-left: -2em;
+    position: absolute;
+    width:120%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+}

@@ -1,0 +1,75 @@
+@media only screen and (min-width: 990px){
+    .main_footer_mob{
+        display: none;
+    }
+}
+
+h3 {
+    color: white;
+    font-size: 28px;
+}
+h4 {
+    color: #0080b4;
+    font-size: 24px;
+}
+h5 {
+    color: white;
+    font-size: 20px;
+}
+
+.contact_line_block {
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.contact_line {
+    background-size: cover;
+}
+/* Общий цвет адресаного блока */
+.main_footer_mob {
+    background-color: #1a282f;
+    padding: 0;
+    margin: auto;
+}
+
+/* Центральный блок с формой */
+.footer_center_item {
+    border-left: white 2px solid;
+    border-right: white 2px solid;
+}
+
+.nav_footer {
+    color: white;
+}
+
+/* Для переноса строки в адресе */
+.footer_text_item {
+    white-space: pre-line;
+}
+
+/* Заготовка под показ, скрытие мобильной версии */
+@media only screen and (max-width: 990px) {
+    .main_footer{
+        display: none;
+    }
+}
+
+.footer_contact {
+    display: flex;
+    flex-wrap: wrap; /*разрешаем переност для адаптивности*/
+    justify-content: space-around;
+}
+.footer_right_item_mob h4{
+    padding-top: 0.5em;
+}
+.footer-text_mob h2{
+    font-size: 20px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: #0080b4;
+}
+.mob_footer_form{
+
+}
+

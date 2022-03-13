@@ -1,0 +1,38 @@
+.values_page {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.values_page h3{
+   margin-top: 1em;
+    color: #ffffff;
+}
+.values_page h5{
+    color: #0080b4;
+    padding-right: 7em;
+}
+
+.values_left {
+    margin-top: 16em;
+}
+
+.values_right{
+    padding-left: 2%;
+    text-align: justify;
+}
+.values{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.container{
+    width: 100%;
+}
+
+@media only screen and (max-width: 990px){
+    .values_page {
+
+        display: none;
+    }
+}
